@@ -17,8 +17,7 @@ Aplikasi profil dengan fitur kamera dan GPS. Dibangun dengan Expo & React Native
 ## 📥 Download APK
 
 **Versi terbaru (v1.0.1 - Build Kedua):**  
-🔗 [Download APK v1.0.1](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/[GANTI_DENGAN_LINK_BUILD_KEDUA])  
-*(Link akan aktif setelah build kedua selesai)*
+🔗 [Download APK v1.0.1](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/7bcb0baa-f2e2-4cf5-80c9-cb9de2361d1f)
 
 **Versi awal (v1.0.0):**  
 🔗 [Download APK v1.0.0](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/0c86acee-33c9-4f25-96d6-78f1818db24d)
@@ -62,14 +61,12 @@ Aplikasi profil dengan fitur kamera dan GPS. Dibangun dengan Expo & React Native
 ---
 
 ### 5. Tampilan Versi App di Footer (Bonus A)
-*(Screenshot akan ditambahkan setelah build kedua selesai dan APK v1.0.1 terinstall)*  
-<img src="https://via.placeholder.com/250x500/cccccc/555555?text=Coming+Soon:+Versi+1.0.1" width="250" alt="Version Display - Bonus A" style="border-radius: 12px; border: 1px solid #ddd;" />
+<img src="https://github.com/user-attachments/assets/0c4eab53-94e0-4729-bea2-98d4a56c515f" width="250" alt="Version Display - Bonus A" style="border-radius: 12px; border: 1px solid #ddd;" />
 
 ---
 
 ### 6. Build Kedua & Perubahan UI (Bonus C)
-*(Screenshot dashboard build kedua akan ditambahkan setelah build selesai)*  
-<img src="https://via.placeholder.com/600x300/cccccc/555555?text=Coming+Soon:+Build+Kedua+1.0.1" width="600" alt="Second Build - Bonus C" style="border-radius: 8px; border: 1px solid #ddd;" />
+<img src="https://github.com/user-attachments/assets/7a89603a-3c9f-4669-8e49-721404a745aa" width="600" alt="Second Build - Bonus C" style="border-radius: 8px; border: 1px solid #ddd;" />
 
 ---
 
@@ -94,9 +91,9 @@ Jalankan versi interaktif aplikasi ini langsung di browser:
 ## 📌 Changelog
 
 ### v1.0.1 (Build Kedua - Bonus C)
-- **Perubahan UI:** [Tulis perubahan yang kamu lakukan, misal: "Warna background diubah dari abu-abu (#f5f5f5) menjadi hijau muda (#e8f5e9)"]
+- **Perubahan UI:** Warna background diubah dari abu-abu (#f5f5f5) menjadi hijau muda (#e8f5e9) untuk tampilan lebih segar.
 - **Update versi:** 1.0.1 (versionCode: 2)
-- **Link APK:** [Download v1.0.1](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/[GANTI_DENGAN_LINK_BUILD_KEDUA])
+- **Link APK:** [Download v1.0.1](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/7bcb0baa-f2e2-4cf5-80c9-cb9de2361d1f)
 
 ### v1.0.0 (Rilis Pertama)
 - Initial release dengan fitur kamera, galeri, dan GPS.
