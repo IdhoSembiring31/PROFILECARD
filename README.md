@@ -1,61 +1,7 @@
 # ProfileCard Pro
 
-
-## 🎯 LANGKAH TERAKHIR:
-
-1. Buka `README.md` di repo GitHub lo.
-2. **Hapus semua isi lama**.
-3. **Copy-paste** kode README FINAL di atas.
-4. **Sesuaikan nama file gambar** jika perlu.
-5. **Commit changes**.
-6. Buka halaman repo, **screenshot** seluruh halaman.
-7. Simpan screenshot sebagai **`readme_github.png`**.
-
----
-
-**LEVEL 2 BERES, KOCAL!** 😎🔥 Sekarang README lo udah **PROFESIONAL** dan **LENGKAP** sesuai checklist dosen. Gas lanjut ke Level 3!
-**Tagline:** Aplikasi Profil & Lokasi Digital dengan Fitur Kamera dan GPS
-
-![Version](https://img.shields.io/badge/version-1.0.1-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Android-brightgreen)
-![Expo](https://img.shields.io/badge/Expo-54-000020?logo=expo)
-![React Native](https://img.shields.io/badge/React_Native-0.76-61DAFB?logo=react)
-
----
-
-## 📋 Daftar Isi
-1. [Fitur Unggulan](#-fitur-unggulan)
-2. [Tech Stack](#-tech-stack)
-3. [Screenshot Aplikasi](#-screenshot-aplikasi)
-4. [Dokumentasi Build & Instalasi](#-dokumentasi-build--instalasi)
-5. [Download APK](#-download-apk)
-6. [Cara Install di HP](#-cara-install-di-hp)
-7. [Cara Setup & Jalankan (Developer)](#-cara-setup--jalankan-developer)
-8. [Changelog](#-changelog)
-9. [Developer](#-developer)
-
----
-
-## ✨ Fitur Unggulan
-1. **📸 Ambil Foto dari Kamera** – Mengambil foto langsung dari kamera HP.
-2. **🖼️ Pilih Foto dari Galeri** – Memilih foto dari galeri HP.
-3. **📍 Deteksi Lokasi GPS** – Menampilkan koordinat Latitude & Longitude secara real-time.
-4. **🗺️ Buka Google Maps** – Navigasi langsung ke lokasi pengguna.
-5. **💾 Penyimpanan Otomatis** – Data profil disimpan dengan AsyncStorage.
-6. **ℹ️ Tampilan Versi Aplikasi** – Menampilkan versi app di footer (Bonus A).
-
----
-
-## 🛠️ Tech Stack
-
-| Teknologi | Kegunaan |
-| :--- | :--- |
-| **React Native (Expo)** | Membangun antarmuka aplikasi mobile |
-| **Expo Image Picker** | Mengambil gambar dari kamera & galeri |
-| **Expo Location** | Mengakses GPS untuk mendapatkan koordinat |
-| **AsyncStorage** | Menyimpan data profil secara lokal |
-| **Expo Constants** | Menampilkan versi aplikasi (Bonus A) |
-| **EAS Build** | Cloud build untuk menghasilkan file APK |
 
 ---
 
@@ -63,79 +9,184 @@
 
 | Halaman Utama | Halaman Lokasi | Halaman Galeri |
 | :---: | :---: | :---: |
-| ![Home](screenshots/home.png) | ![Lokasi](screenshots/lokasi.png) | ![Galeri](screenshots/galeri.png) |
+| ![Home](screenshots/Home.png) | ![Lokasi](screenshots/lokasi.png) | ![Galeri](screenshots/lokasi.png) |
 
 ---
 
-## 🔧 Dokumentasi Build & Instalasi
+## 🔧 Dokumentasi Live Test (Scrcpy & ADB)
 
-### 1. Proses Build (EAS Dashboard) — Status FINISHED
-<img src="https://github.com/user-attachments/assets/7d3f7247-ddf2-4d18-b305-91527caeb22d" width="600" alt="EAS Build Dashboard" />
+**1. Scrcpy Mirroring (HP ke Laptop)**  
+![Scrcpy](screenshots/scrpcy_aktif.png)
 
----
+**2. USB Debugging ON**  
+![USB Debugging](screenshots/usb_debugging.png)
 
-### 2. Proses Instalasi APK di HP
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="https://github.com/user-attachments/assets/fc1b9404-ec42-40fe-8670-724ed23f0da6" width="250" alt="Install dialog 1" />
-  <img src="https://github.com/user-attachments/assets/9d34033f-1855-46d0-9ff0-4df9b18fe257" width="250" alt="Install dialog 2" />
-</div>
+**3. ADB Devices Terdeteksi**  
+![ADB Devices](screenshots/adb_devices.png)
 
 ---
 
-### 3. Icon Aplikasi di Home Screen / App Drawer
-<img src="https://github.com/user-attachments/assets/a28d0339-2465-4245-82c2-d4b99f9aa505" width="250" alt="Home Screen Icon" />
+## 👨‍💻 Developer
+- **Nama:** [Idho Sembiring]
+- **NIM:** [243303621251]
+- **Kampus:** [UPRI]
+
+
+
 
 ---
 
-### 4. Live Test (Scrcpy) — Koneksi HP ke Laptop
-<img src="screenshots/scrpcy_aktif.png" width="600" alt="Scrcpy Active" />
+### STEP 4: GANTI BAGIAN YANG PERLU DIGANTI
 
----
-
-### 5. USB Debugging & ADB Devices
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="screenshots/usb_debugging.png" width="250" alt="USB Debugging ON" />
-  <img src="screenshots/adb_devices.png" width="400" alt="ADB Devices" />
-</div>
-
----
-
-### 6. Video App Berjalan di HP (Tanpa Expo Go)
-<a href="https://github.com/user-attachments/assets/0c6d2415-acce-4d8c-abe7-fc06f308d16a">▶️ Klik di sini untuk melihat video demo</a>
-
----
-
-### 7. Tampilan Versi App di Footer (Bonus A)
-<img src="https://github.com/user-attachments/assets/0c4eab53-94e0-4729-bea2-98d4a56c515f" width="250" alt="Version Display" />
-
----
-
-### 8. Build Kedua & Perubahan UI (Bonus C)
-<img src="https://github.com/user-attachments/assets/7a89603a-3c9f-4669-8e49-721404a745aa" width="600" alt="Second Build" />
-
----
-
-## 📦 Download APK
-
-| Versi | Link Download |
+| Bagian | Ganti Dengan |
 | :--- | :--- |
-| **v1.0.1 (Build Kedua)** | [Download APK v1.0.1](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/7bcb0baa-f2e2-4cf5-80c9-cb9de2361d1f) |
-| **v1.0.0 (Build Pertama)** | [Download APK v1.0.0](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/0c86acee-33c9-4f25-96d6-78f1818db24d) |
+| `[NAMA-REPO-KAMU]` | Nama repository lo (misal: `ProfileCard-Pro`) |
+| `[NAMA-FOLDER]` | Nama folder di laptop lo |
+| `[LINK_APK_EAS_BUILD_KAMU]` | Link APK dari EAS Build |
+| `[GANTI DENGAN NAMA LENGKAP KAMU]` | Nama lo |
+| `[GANTI DENGAN NIM KAMU]` | NIM lo |
+| `[GANTI DENGAN NAMA KAMPUS]` | Nama kampus lo |
+
+---
+
+### STEP 5: SESUAIKAN NAMA FILE GAMBAR
+
+Cek nama file di folder `screenshots/` lo, sesuaikan dengan yang ada di README:
+
+| Di README | Nama File di screenshots/ | Harus Sama! |
+| :--- | :--- | :--- |
+| `home.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
+| `lokasi.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
+| `galeri.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
+| `scrpcy_aktif.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
+| `usb_debugging.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
+| `adb_devices.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
+
+**Kalau nama file lo beda** (misal: `ss1.jpg`), ganti nama di README sesuai dengan nama file lo.
+
+---
+
+### STEP 6: COMMIT & CEK
+
+1. Klik **Commit changes** di bagian bawah.
+2. Buka halaman repo GitHub lo di browser.
+3. **Scroll ke bawah** sampai lihat README.
+4. Pastikan:
+   - ✅ Badge muncul (version, platform)
+   - ✅ 3 foto aplikasi muncul di tabel
+   - ✅ 3 foto Scrcpy muncul di bagian dokumentasi
+   - ✅ Ada tabel tech stack
+   - ✅ Ada setup guide
+   - ✅ Ada info developer
+5. **Screenshot** seluruh halaman repo itu.
+6. Simpan sebagai **`readme_github.png`**.
+
+---
+
+
+
+
+=================================
+
+# 📱 ProfileCard Pro
+
+Aplikasi profil dengan fitur kamera dan GPS. Dibangun dengan Expo & React Native.
+
+---
+
+## ✨ Fitur Utama
+- 📸 Ambil Foto dari Kamera
+- 🖼️ Pilih Foto dari Galeri
+- 📍 Deteksi Lokasi GPS & Reverse Geocoding
+- 🗺️ Buka Google Maps
+- 💾 Penyimpanan Data Otomatis (AsyncStorage)
+- ℹ️ Tampilan Versi Aplikasi (Bonus A)
+
+---
+
+## 📥 Download APK
+
+**Versi terbaru (v1.0.1 - Build Kedua):**  
+🔗 [Download APK v1.0.1](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/7bcb0baa-f2e2-4cf5-80c9-cb9de2361d1f)
+
+**Versi awal (v1.0.0):**  
+🔗 [Download APK v1.0.0](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/0c86acee-33c9-4f25-96d6-78f1818db24d)
 
 > ⚠️ *Link APK hanya aktif 30 hari sejak build selesai.*
 
 ---
 
-## 📲 Cara Install di HP
+## 🛠 Cara Install di HP
 1. Download file `.apk` dari link di atas.
 2. Buka file APK di HP Android.
-3. Jika muncul peringatan *"Unknown sources"*, izinkan instalasi.
+3. Jika muncul peringatan "Unknown sources", izinkan instalasi.
 4. Klik **Install**, tunggu hingga selesai.
-5. Buka aplikasi **"ProfileCard Pro"** dari menu utama HP.
+5. Buka aplikasi "ProfileCard Pro" dari menu utama HP.
 
 ---
 
-## 🚀 Cara Setup & Jalankan (Developer)
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/IdhoSembiring31/ProfileCard-Pro
+## 📱 Screenshots & Dokumentasi
+
+### 1. Proses Build (EAS Dashboard) — Status FINISHED
+<img src="https://github.com/user-attachments/assets/7d3f7247-ddf2-4d18-b305-91527caeb22d" width="600" alt="EAS Build Dashboard" style="border-radius: 8px; border: 1px solid #ddd;" />
+
+---
+
+### 2. Proses Instalasi APK di HP
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="https://github.com/user-attachments/assets/fc1b9404-ec42-40fe-8670-724ed23f0da6" width="250" alt="Install dialog 1" style="border-radius: 12px; border: 1px solid #ddd;" />
+  <img src="https://github.com/user-attachments/assets/9d34033f-1855-46d0-9ff0-4df9b18fe257" width="250" alt="Install dialog 2" style="border-radius: 12px; border: 1px solid #ddd;" />
+</div>
+
+---
+
+### 3. Icon Aplikasi di Home Screen / App Drawer
+<img src="https://github.com/user-attachments/assets/a28d0339-2465-4245-82c2-d4b99f9aa505" width="250" alt="Home Screen Icon" style="border-radius: 12px; border: 1px solid #ddd;" />
+
+---
+
+### 4. Video App Berjalan di HP (Tanpa Expo Go)
+<a href="https://github.com/user-attachments/assets/0c6d2415-acce-4d8c-abe7-fc06f308d16a">▶️ Klik untuk melihat video demo</a>
+
+---
+
+### 5. Tampilan Versi App di Footer (Bonus A)
+<img src="https://github.com/user-attachments/assets/0c4eab53-94e0-4729-bea2-98d4a56c515f" width="250" alt="Version Display - Bonus A" style="border-radius: 12px; border: 1px solid #ddd;" />
+
+---
+
+### 6. Build Kedua & Perubahan UI (Bonus C)
+<img src="https://github.com/user-attachments/assets/7a89603a-3c9f-4669-8e49-721404a745aa" width="600" alt="Second Build - Bonus C" style="border-radius: 8px; border: 1px solid #ddd;" />
+
+---
+
+## 🍱 Coba Online via Expo Snack (Bonus B)
+Jalankan versi interaktif aplikasi ini langsung di browser:
+
+🔗 **[ProfileCard Pro di Expo Snack](https://snack.expo.dev/@idhos/profile_app)**
+
+---
+
+## ⚙️ Teknologi yang Digunakan
+- [Expo](https://expo.dev/) SDK 54
+- [React Native](https://reactnative.dev/)
+- [EAS Build](https://docs.expo.dev/build/)
+- [expo-image-picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+- [expo-location](https://docs.expo.dev/versions/latest/sdk/location/)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
+- [expo-constants](https://docs.expo.dev/versions/latest/sdk/constants/) (Bonus A)
+
+---
+
+## 📌 Changelog
+
+### v1.0.1 (Build Kedua - Bonus C)
+- **Perubahan UI:** Warna background diubah dari abu-abu (#f5f5f5) menjadi hijau muda (#e8f5e9) untuk tampilan lebih segar.
+- **Update versi:** 1.0.1 (versionCode: 2)
+- **Link APK:** [Download v1.0.1](https://expo.dev/accounts/idhos/projects/profilecard-pro/builds/7bcb0baa-f2e2-4cf5-80c9-cb9de2361d1f)
+
+### v1.0.0 (Rilis Pertama)
+- Initial release dengan fitur kamera, galeri, dan GPS.
+- Versi: 1.0.0 (versionCode: 1)
+- Penyimpanan data dengan AsyncStorage.
+  
