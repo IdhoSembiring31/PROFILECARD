@@ -9,7 +9,7 @@
 
 | Halaman Utama | Halaman Lokasi | Halaman Galeri |
 | :---: | :---: | :---: |
-| ![Home](screenshots/home.png) | ![Lokasi](screenshots/lokasi.png) | ![Galeri](screenshots/galeri.png) |
+| ![Home](screenshots/Home.png) | ![Lokasi](screenshots/Lokasi.png) | ![Galeri](screenshots/Lokasi.png) |
 
 ---
 
