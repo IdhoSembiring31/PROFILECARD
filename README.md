@@ -1,3 +1,39 @@
+# ProfileCard Pro
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Platform](https://img.shields.io/badge/platform-Android-brightgreen)
+
+---
+
+## 📱 Screenshot Aplikasi
+
+| Halaman Utama | Halaman Lokasi | Halaman Galeri |
+| :---: | :---: | :---: |
+| ![Home](screenshots/home.png) | ![Lokasi](screenshots/lokasi.png) | ![Galeri](screenshots/galeri.png) |
+
+---
+
+## 🔧 Dokumentasi Live Test (Scrcpy & ADB)
+
+**1. Scrcpy Mirroring (HP ke Laptop)**  
+![Scrcpy](screenshots/scrpcy_aktif.png)
+
+**2. USB Debugging ON**  
+![USB Debugging](screenshots/usb_debugging.png)
+
+**3. ADB Devices Terdeteksi**  
+![ADB Devices](screenshots/adb_devices.png)
+
+---
+
+## 👨‍💻 Developer
+- **Nama:** [GANTI NAMA LENGKAP KAMU]
+- **NIM:** [GANTI NIM KAMU]
+- **Kampus:** [GANTI NAMA KAMPUS KAMU]
+
+
+
+
 # 📱 ProfileCard Pro
 
 Aplikasi profil dengan fitur kamera dan GPS. Dibangun dengan Expo & React Native.
