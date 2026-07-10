@@ -27,9 +27,9 @@
 ---
 
 ## 👨‍💻 Developer
-- **Nama:** [GANTI NAMA LENGKAP KAMU]
-- **NIM:** [GANTI NIM KAMU]
-- **Kampus:** [GANTI NAMA KAMPUS KAMU]
+- **Nama:** [Idho Sembiring]
+- **NIM:** [243303621251]
+- **Kampus:** [UPRI]
 
 
 
