@@ -34,56 +34,6 @@
 
 
 
----
-
-### STEP 4: GANTI BAGIAN YANG PERLU DIGANTI
-
-| Bagian | Ganti Dengan |
-| :--- | :--- |
-| `[NAMA-REPO-KAMU]` | Nama repository lo (misal: `ProfileCard-Pro`) |
-| `[NAMA-FOLDER]` | Nama folder di laptop lo |
-| `[LINK_APK_EAS_BUILD_KAMU]` | Link APK dari EAS Build |
-| `[GANTI DENGAN NAMA LENGKAP KAMU]` | Nama lo |
-| `[GANTI DENGAN NIM KAMU]` | NIM lo |
-| `[GANTI DENGAN NAMA KAMPUS]` | Nama kampus lo |
-
----
-
-### STEP 5: SESUAIKAN NAMA FILE GAMBAR
-
-Cek nama file di folder `screenshots/` lo, sesuaikan dengan yang ada di README:
-
-| Di README | Nama File di screenshots/ | Harus Sama! |
-| :--- | :--- | :--- |
-| `home.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
-| `lokasi.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
-| `galeri.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
-| `scrpcy_aktif.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
-| `usb_debugging.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
-| `adb_devices.png` | ⬜ Cek nama file lo | ✅ WAJIB SAMA |
-
-**Kalau nama file lo beda** (misal: `ss1.jpg`), ganti nama di README sesuai dengan nama file lo.
-
----
-
-### STEP 6: COMMIT & CEK
-
-1. Klik **Commit changes** di bagian bawah.
-2. Buka halaman repo GitHub lo di browser.
-3. **Scroll ke bawah** sampai lihat README.
-4. Pastikan:
-   - ✅ Badge muncul (version, platform)
-   - ✅ 3 foto aplikasi muncul di tabel
-   - ✅ 3 foto Scrcpy muncul di bagian dokumentasi
-   - ✅ Ada tabel tech stack
-   - ✅ Ada setup guide
-   - ✅ Ada info developer
-5. **Screenshot** seluruh halaman repo itu.
-6. Simpan sebagai **`readme_github.png`**.
-
----
-
-
 
 
 =================================
